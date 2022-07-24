@@ -1,0 +1,129 @@
+/* contacts-footer-color: rgba(255, 255, 255, 0.6) */
+:root {
+    --accent-color: #2196F3;
+
+    /* bg color */
+    --primary-bg-color: #F5F5F5;
+    --secondary-bg-color: #F5F4FA;
+    --hero-footer-bgc: #2F303A;
+
+    /* text color */
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --primary-white-color: #FFFFFF;
+    --primary-black-color: #000000;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* Стилізація сторінки Студія */
+/* Header */
+.header {
+    background-color: var(--primary-white-color)
+}
+/* Logo-nav */
+.logo-nav {
+    color: var(--primary-black-color);
+}
+.logo-nav .logo-accent {
+    color: var(--accent-color)
+}
+
+/* Site-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Auth-nav */
+.auth-nav .link {
+    color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+    background-color: var(--hero-footer-bgc);
+}
+.hero .hero-title {
+    color: var(--primary-white-color);
+}
+.hero .hero-btn {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+}
+/* Features */
+.features-list .title {
+    color: black;
+}
+/* Team */
+.team {
+    background-color: var(--secondary-bg-color);
+}
+.team-list .title {
+    color: var(--title-text-color)
+}
+.team-list .team-employee {
+    background-color: var(--primary-white-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--hero-footer-bgc)
+}
+.footer-logo {
+    color: var(--primary-white-color);
+}
+.footer-logo .logo-accent {
+    color: var(--accent-color);
+}
+.footer-contacts .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts .address {
+    color: var(--primary-white-color);
+}
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* Стилізація сторінки Портфоліо */
+/* borders : #EEEEEE */
+
+/* Portfolio-button */
+.portfolio-list .portfolio-btn {
+    background-color: var(--secondary-bg-color);
+    color: var(--title-text-color);
+}
+.portfolio-list .portfolio-btn:hover,
+.portfolio-list .portfolio-btn:focus {
+    background-color: var(--accent-color);
+}
+
+/* Portfolio-examples */
+.portfolio-examples .title {
+    color: var(--title-text-color);
+}
+.portfolio-examples .item {
+    background-color: var(--primary-white-color);
+}
+
